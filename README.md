@@ -1,8 +1,9 @@
 # CCF Practical App | Js Key Concepts
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/NosisAtlas/ccf_practical_app/main)
 
 <hr>
 
-##Variables:
+## Variables:
 	-Declaring variables using const and let.
 	-Assigning values to variables and updating their values as needed.
 
