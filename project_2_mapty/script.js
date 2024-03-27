@@ -7,6 +7,7 @@ const inputDistance = document.querySelector(".form__input--distance");
 const inputDuration = document.querySelector(".form__input--duration");
 const inputCadence = document.querySelector(".form__input--cadence");
 const inputElevation = document.querySelector(".form__input--elevation");
+let resetBtn = document.getElementById("reset");
 
 // Workout parent class
 class Workout {
@@ -67,9 +68,15 @@ class App {
   #mapEvent;
   #workouts = [];
   constructor() {
+    // Getting current position
     this._getPosition();
+
+    // Getting data from local storage
+    this._getLocalStorage();
+
     // Handling form submission
     form.addEventListener("submit", this._newWorkout.bind(this));
+    // Event handlers
     inputType.addEventListener("change", this._toggleElevationField);
     containerWorkouts.addEventListener("click", this._moveToPopup.bind(this));
   }
@@ -85,11 +92,8 @@ class App {
       );
   }
   _loadMap(position) {
-    console.log(position);
     const { latitude } = position.coords;
     const { longitude } = position.coords;
-    console.log(latitude, longitude);
-    console.log(`https://www.google.pt/maps/@${latitude},${longitude}`);
     const coords = [latitude, longitude];
     // Adding the leaflet code to preview the map
     // 13 is the number to set the box zoom on the map
@@ -101,6 +105,9 @@ class App {
     }).addTo(this.#map);
     // Handling clicks on map
     this.#map.on("click", this._showForm.bind(this));
+    this.#workouts.forEach((work) => {
+      this._renderWorkoutMarker(work);
+    });
   }
   _showForm(mapE) {
     this.#mapEvent = mapE;
@@ -162,7 +169,6 @@ class App {
     }
     // Add new object to workout array
     this.#workouts.push(workout);
-    console.log(workout);
 
     // Render workout on map as marker
     this._renderWorkoutMarker(workout);
@@ -172,6 +178,11 @@ class App {
 
     // Clearing inputs and hiding form
     this._hideForm();
+
+    // Setting the local storage to workouts
+    this._setLocalStorage();
+
+    resetBtn.classList.remove("reset-hidden");
   }
   _renderWorkoutMarker(workout) {
     // Getting the click on map coords and display marker
@@ -239,12 +250,10 @@ class App {
   }
   _moveToPopup(e) {
     const workoutEl = e.target.closest(".workout");
-    console.log(workoutEl);
     if (!workoutEl) return;
     const workout = this.#workouts.find(
       (work) => work.id === workoutEl.dataset.id
     );
-    console.log(workout);
     this.#map.setView(workout.coords, this.#mapZoomLevel, {
       animate: true,
       pan: {
@@ -252,8 +261,32 @@ class App {
       },
     });
     // Use the publick interface
-    workout.click();
+    // workout.click();
+  }
+  _setLocalStorage() {
+    localStorage.setItem("workouts", JSON.stringify(this.#workouts));
+  }
+
+  _getLocalStorage() {
+    const data = JSON.parse(localStorage.getItem("workouts"));
+
+    if (!data) return;
+
+    this.#workouts = data;
+    this.#workouts.forEach((work) => {
+      this._renderWorkout(work);
+    });
+    resetBtn.classList.remove("reset-hidden");
+  }
+  reset() {
+    localStorage.removeItem("workouts");
+    location.reload();
   }
 }
 
 const app = new App();
+
+// console.log(resetBtn);
+resetBtn.addEventListener("click", function () {
+  app.reset();
+});
