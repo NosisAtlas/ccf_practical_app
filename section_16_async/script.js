@@ -94,13 +94,17 @@ const newGetCountryData = function (country) {
     .then((dataNeighbour) => {
       renderCountry(dataNeighbour[0], "neighbour");
     })
+    // will work only if there's an error
     .catch((err) => {
-      console.log(err);
       renderError("Somethign went wrong! " + err.message);
+    })
+    .finally(() => {
+      // will work whatever happens
+      countriesContainer.style.opacity = 1;
     });
 };
 
 // newGetCountryData("portugal");
 btn.addEventListener("click", function () {
-  newGetCountryData("Kingdom of Morocco");
+  newGetCountryData("Kingdom of Morocsco");
 });
