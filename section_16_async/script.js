@@ -72,9 +72,17 @@ const getCountryNeighbour = function (neighbour) {
 
 //////////////////////////// NEW METHODE /////////////////////////////////
 
+const renderError = function (msg) {
+  countriesContainer.insertAdjacentText("beforeend", msg);
+  countriesContainer.style.opacity = 1;
+};
+
 const newGetCountryData = function (country) {
   fetch(`https://restcountries.com/v3.1/name/${country}`)
-    .then((response) => response.json())
+    .then(
+      (response) => response.json(),
+      (err) => alert(err)
+    )
     .then((data) => {
       renderCountry(data[0]);
       const neighbour = data[0].borders[0];
@@ -85,8 +93,14 @@ const newGetCountryData = function (country) {
     .then((response) => response.json())
     .then((dataNeighbour) => {
       renderCountry(dataNeighbour[0], "neighbour");
+    })
+    .catch((err) => {
+      console.log(err);
+      renderError("Somethign went wrong! " + err.message);
     });
 };
 
-newGetCountryData("portugal");
-newGetCountryData("Kingdom of Morocco");
+// newGetCountryData("portugal");
+btn.addEventListener("click", function () {
+  newGetCountryData("Kingdom of Morocco");
+});
