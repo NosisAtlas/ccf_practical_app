@@ -29,6 +29,8 @@ const renderCountry = function (data, className = "") {
   countriesContainer.style.opacity = 1;
 };
 
+///////////////////////////////// OLD METHODE //////////////////////////////////////
+
 // Getting the country data
 const getCountryData = function (country) {
   // Ajax call main country
@@ -65,5 +67,26 @@ const getCountryNeighbour = function (neighbour) {
   });
 };
 
-getCountryData("portugal");
-getCountryData("Kingdom of Morocco");
+// getCountryData("portugal");
+// getCountryData("Kingdom of Morocco");
+
+//////////////////////////// NEW METHODE /////////////////////////////////
+
+const newGetCountryData = function (country) {
+  fetch(`https://restcountries.com/v3.1/name/${country}`)
+    .then((response) => response.json())
+    .then((data) => {
+      renderCountry(data[0]);
+      const neighbour = data[0].borders[0];
+      console.log(data);
+      if (!neighbour) return;
+      return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
+    })
+    .then((response) => response.json())
+    .then((dataNeighbour) => {
+      renderCountry(dataNeighbour[0], "neighbour");
+    });
+};
+
+newGetCountryData("portugal");
+newGetCountryData("Kingdom of Morocco");
