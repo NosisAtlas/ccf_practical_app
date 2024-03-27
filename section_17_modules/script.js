@@ -16,3 +16,8 @@ state.user.loggedIn = false;
 console.log(stateClone);
 
 console.log(stateDeepClone);
+
+// Only parcel understands it - serves to keep the state maintained in the app without refreshing
+if (module.hot) {
+  module.hot.accept();
+}
