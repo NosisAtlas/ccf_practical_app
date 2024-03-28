@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <script type="module" src="src/js/controller.js"></script>
+    <script defer src="src/js/controller.js"></script>
 
     <title>forkify // Search over 1,000,000 recipes</title>
   </head>
@@ -73,7 +73,7 @@
                         <h4 class="preview__name">
                           Pasta with Tomato Cream ...
                         </h4>
-                        <p class="preview__publisher">The Pioneer Woman</p>
+                        <p class="preview__author">The Pioneer Woman</p>
                       </div>
                     </a>
                   </li> -->
@@ -123,13 +123,8 @@
 
         <p class="copyright">
           &copy; Copyright by
-          <a
-            class="twitter-link"
-            target="_blank"
-            href="https://twitter.com/jonasschmedtman"
-            >Jonas Schmedtmann</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
+          <a class="twitter-link">Jonas Schmedtmann</a>. Use for learning or
+          your portfolio. Don't use to teach. Don't claim as your own.
         </p>
       </div>
 
@@ -263,17 +258,22 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input value="TEST" required name="title" type="text" />
+          <input value="Js Test Recipe" required name="title" type="text" />
           <label>URL</label>
-          <input value="TEST" required name="sourceUrl" type="text" />
+          <input value="Recipe Url" required name="sourceUrl" type="text" />
           <label>Image URL</label>
-          <input value="TEST" required name="image" type="text" />
+          <input
+            value="https://th.bing.com/th/id/OIP.jJI3bTJ-diLfKDHb9-vwmwHaE8?rs=1&pid=ImgDetMain"
+            required
+            name="image"
+            type="text"
+          />
           <label>Publisher</label>
-          <input value="TEST" required name="publisher" type="text" />
+          <input value="Nosis" required name="publisher" type="text" />
           <label>Prep time</label>
           <input value="23" required name="cookingTime" type="number" />
           <label>Servings</label>
-          <input value="23" required name="servings" type="number" />
+          <input value="3" required name="servings" type="number" />
         </div>
 
         <div class="upload__column">
