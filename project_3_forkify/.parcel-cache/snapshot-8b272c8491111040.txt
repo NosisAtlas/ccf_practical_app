@@ -1,4 +1,4 @@
-9620
+9622
 95C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\escalade\sync\index.mjs133560598503981549 0
 85C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\dotenv-expand133560598503357066 1
 88C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\braces\README.md133560598503172696 0
@@ -102,7 +102,7 @@
 109C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\full\function\has-instance.js133560632181164236 0
 75C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\img\logo.png132886955210000000 0
 122C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\htmlnano\lib\modules\minifyConditionalComments.mjs133560598510781285 0
-65C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js133560643640000863 1
+65C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js133560675005786928 1
 86C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\semver\LICENSE133560598500109733 0
 101C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\full\object\assign.js133560632157539713 0
 112C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\css-what\lib\commonjs\stringify.d.ts.map133560598505750192 0
@@ -197,7 +197,7 @@
 99C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\type-fest\source\entry.d.ts133560598505496731 0
 104C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\msgpackr-extract\src\extract.cpp133560598500793109 0
 118C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\modules\esnext.symbol.pattern-match.js133560632171833847 0
-79C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\controller.js133560662335060550 0
+79C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\controller.js133560684391136631 0
 103C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\css-select\lib\general.d.ts.map133560598508605829 0
 129C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\css-tools.js133560598507454348 0
 84C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\full133560632214964783 1
@@ -302,6 +302,7 @@
 109C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\type-fest\source\set-return-type.d.ts133560598507965787 0
 116C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\@parcel\source-map\parcel_sourcemap_node\src133560598510818640 1
 104C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\postcss-value-parser\lib\unit.js133560598503342159 0
+76C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\helpers.js133560683227256540 0
 83C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\cosmiconfig133560598506843538 1
 115C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\@parcel\optimizer-svgo\src\SVGOOptimizer.js133560598502364535 0
 129C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\050-modules.md133560598509912822 0
@@ -3161,7 +3162,7 @@
 107C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\caniuse-lite\data\features\forms.js133560598515998034 0
 94C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\escalade\dist\index.js133560598500762334 0
 114C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\caniuse-lite\data\features\css-autofill.js133560598512317590 0
-63C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist133560669114581446 1
+63C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist133560684391798215 1
 89C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\dotenv-expand\lib133560598503523594 1
 95C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\escalade\dist\index.mjs133560598503653579 0
 126C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean133560598509248929 1
@@ -7551,11 +7552,11 @@
 101C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\es\array\to-sorted.js133560632208785583 0
 97C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\project_3_forkify.3464ddca.js.map133560604843868903 0
 74C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.html133560606105468268 0
-81C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\logo.726d37a8.png133560666865822341 0
+81C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\logo.726d37a8.png133560682140924354 0
 109C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\actual\array\virtual\index.js133560632182674023 0
-86C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.f7626f62.css.map133560666865904745 0
+86C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.f7626f62.css.map133560682141705807 0
 110C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\stable\object\is-extensible.js133560632186878480 0
-82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\icons.dfd7a6db.svg133560666865722400 0
+82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\icons.dfd7a6db.svg133560682141713939 0
 109C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\es\string\virtual\iterator.js133560632188842466 0
 99C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\full\math\fscale.js133560632178389433 0
 121C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\modules\esnext.set.is-disjoint-from.v2.js133560632171445834 0
@@ -9515,7 +9516,7 @@
 116C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\features\typed-array\uint32-array.js133560632212098790 0
 114C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\stable\typed-array\uint32-array.js133560632212098790 0
 109C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\es\typed-array\uint8-array.js133560632212152908 0
-71C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\views133560643749580565 1
+71C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\views133560675005786928 1
 115C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\features\typed-array\uint8-array.js133560632212173137 0
 121C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\actual\typed-array\uint8-clamped-array.js133560632212201859 0
 117C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\es\typed-array\uint8-clamped-array.js133560632212201859 0
@@ -9608,14 +9609,15 @@
 89C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\README.md133560632215123237 0
 96C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\core-js\stable\README.md133560632215123237 0
 69C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\.gitignore133560637606369860 0
-74C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\model.js133560649633354531 0
+74C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\model.js133560676513507470 0
 82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\fractional133560664270074326 1
 95C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\fractional\package.json133560664269938183 0
 98C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\fractional\array_mixins.js133560664269977474 0
 91C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\fractional\releases133560664270083166 1
 107C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\node_modules\fractional\releases\fraction-0.1.js133560664270338998 0
-82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.f7626f62.css133560666865817366 0
-84C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\favicon.8b2f57bf.png133560666866035091 0
-82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\icons.21bad73c.svg133560666866051609 0
-81C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.e37f48ea.js133560669114530221 0
-85C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.e37f48ea.js.map133560669114568261 0
+75C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\src\js\config.js133560681262455580 0
+82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\icons.21bad73c.svg133560682140823255 0
+84C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\favicon.8b2f57bf.png133560682140823255 0
+82C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.f7626f62.css133560682141669379 0
+81C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.e37f48ea.js133560684391766614 0
+85C:\Users\pc\Documents\Egio\JS_Course\ccf\project_3_forkify\dist\index.e37f48ea.js.map133560684391790596 0
